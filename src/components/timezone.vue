@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top: 10%;">
     <dev class="time cycle" style="width:50%;height:200px;float: left;" >
-         <div class="input" style="margin: auto;width: 30%;">
+         <div class="input" style="margin: auto;width: 10%;">
                 <a-form :label-col="labelCol" :wrapper-col="wrapperCol" style="width:500px;height:200px;">
                 <a-form-item label="转换时间" required>
                 <a-input v-model:value="modelRef.date" style="width: 200px;    right: 26%;" />
@@ -41,7 +41,7 @@
         </a-form>
          </div>
     </dev>
-    <div class="cycleDate" style="float: right;width:50%;">
+    <div class="cycleDate" style="float: right;width:40%;">
         <div style="background: #ececec; padding: 5px ;width:310px;">
             <a-card title="目标时间" :bordered="false" style="width: 300px;">
             <p>{{modelRef.cycleDate.date}}</p>
