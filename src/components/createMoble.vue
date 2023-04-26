@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top: 10%;">
-        <h1>全球手机号生成</h1>
+        <!-- <h1 style="position: relative;">全球手机号生成</h1> -->
     <div class="input" style="position: relative;left: 38%;width:fit-content" >
         
         <a-form
