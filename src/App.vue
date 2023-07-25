@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">获取手机号</router-link> |
-    <router-link to="/timezone">时区转换</router-link>
+    <router-link to="/">全球手机号生成器</router-link> |
+    <router-link to="/timezone">时区转换</router-link> |
+    <router-link to="/uuid">uuid生成器</router-link>
   </div>
   <router-view/>
 </template>

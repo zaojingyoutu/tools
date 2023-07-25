@@ -14,7 +14,12 @@ const routes: Array<RouteRecordRaw> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../components/timezone.vue')
-  }
+  }, 
+  {
+    path: '/uuid',
+    name: 'uuid',
+    component: () => import(/* webpackChunkName: "about" */ '../components/uuid.vue')
+  },
 ]
 
 const router = createRouter({

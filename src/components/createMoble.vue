@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top: 10%;">
-        <!-- <h1 style="position: relative;">全球手机号生成</h1> -->
+        <!-- <h1 style="position: relative;">全球手机号生成器</h1> -->
     <div class="input" style="position: relative;left: 38%;width:fit-content" >
         
         <a-form
@@ -11,7 +11,7 @@
       @finishFailed="onFinishFailed"
     >
       <a-form-item
-        label="国家"
+        label="国家/地区"
         name="country"
         :rules="[{ required: true, message: '国家必填' }]"
         
