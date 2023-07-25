@@ -27,7 +27,7 @@
     <div >
         <a-textarea
         v-model:value="formState.uuids"
-        placeholder="Basic usage"
+        placeholder="请先生成uuid"
         :rows="4"
         style=" height: 400px; width: 363px; right: 65px;"
       />
