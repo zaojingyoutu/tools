@@ -29,7 +29,7 @@
         v-model:value="formState.uuids"
         placeholder="请先生成uuid"
         :rows="4"
-        style=" height: 400px; width: 363px; right: 65px;"
+        style=" height: 400px; width: 363px; right: 65px;font-family: revert;"
       />
       </div>
   </div>
