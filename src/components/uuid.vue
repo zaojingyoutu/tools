@@ -51,7 +51,6 @@ const onFinish = () => {
     for (let i = 0; i<formState.generateQuantity;i++){
         formState.uuids =( formState.uuids + '\n' + crypto.randomUUID()).trim()
     }
-  console.log("Success:", formState.uuids);
 };
 
 const onFinishFailed = (errorInfo: any) => {
