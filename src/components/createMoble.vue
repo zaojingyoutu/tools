@@ -81,7 +81,7 @@ import { defineComponent, reactive,ref } from 'vue';
       const onFinishFailed = (errorInfo: any) => {
         console.log('Failed:', errorInfo);
       };
-      const send=()=>{fetch( "https://www.zaojingyoutu.top:8000/api/getMobile/?name=" + formState.country, {
+      const send=()=>{fetch( "https://www.zaojingyoutu.top:8002/api/getMobile/?name=" + formState.country, {
       mode: "cors",
       method: "get",
     })

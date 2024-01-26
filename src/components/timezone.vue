@@ -89,7 +89,7 @@ export default defineComponent({
       cycleDate: "",
     });
     const timeZoneList: any[] = [];
-    fetch("https://www.zaojingyoutu.top:8000/api/timezone/", {
+    fetch("https://www.zaojingyoutu.top:8002/api/timezone/", {
       mode: "cors",
       method: "get",
     })
@@ -115,7 +115,7 @@ export default defineComponent({
     };
 
     const onSubmit = () => {
-      fetch("https://www.zaojingyoutu.top:8000/api/timezone/", {
+      fetch("https://www.zaojingyoutu.top:8002/api/timezone/", {
         mode: "cors",
         method: "post",
         body: JSON.stringify(modelRef),
